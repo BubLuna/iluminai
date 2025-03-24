@@ -104,7 +104,7 @@ const Navbar: React.FC = () => {
           )}
         </button>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation - Fixed the background to always be solid */}
         <div
           className={`fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
