@@ -104,34 +104,34 @@ const Navbar: React.FC = () => {
           )}
         </button>
 
-        {/* Mobile Navigation - Fixed the background to always be solid */}
-        <div
-          className={`fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          } md:hidden`}
-        >
-          <div className="flex justify-end p-6">
-            <button
-              onClick={closeMenu}
-              className="text-iluminai-blue-dark focus:outline-none"
-              aria-label="Close menu"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
-          <nav className="flex flex-col items-center justify-center h-full space-y-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
+        {/* Mobile Navigation - Fixed with solid background */}
+        {isMenuOpen && (
+          <div
+            className="fixed inset-0 bg-white z-50 md:hidden"
+          >
+            <div className="flex justify-end p-6">
+              <button
                 onClick={closeMenu}
-                className="text-2xl font-semibold text-iluminai-blue-dark hover:text-iluminai-yellow transition-colors"
+                className="text-iluminai-blue-dark focus:outline-none"
+                aria-label="Close menu"
               >
-                {link.name}
-              </a>
-            ))}
-          </nav>
-        </div>
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            <nav className="flex flex-col items-center justify-center h-full space-y-8">
+              {navLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={closeMenu}
+                  className="text-2xl font-semibold text-iluminai-blue-dark hover:text-iluminai-yellow transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );
