@@ -111,10 +111,6 @@ const Contribute: React.FC = () => {
                         <span className="w-2 h-2 rounded-full bg-iluminai-yellow mr-2"></span>
                         Materiais para as atividades
                       </li>
-                      <li className="flex items-center">
-                        <span className="w-2 h-2 rounded-full bg-iluminai-yellow mr-2"></span>
-                        Serviços voluntários
-                      </li>
                     </ul>
                   </div>
                 </div>
