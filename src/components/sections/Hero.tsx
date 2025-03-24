@@ -1,7 +1,7 @@
 
 import React from "react";
 import FadeIn from "../animations/FadeIn";
-import Button from "../ui/Button";
+import { Button } from "../ui/Button";
 import { ChevronDown } from "lucide-react";
 
 const Hero: React.FC = () => {
