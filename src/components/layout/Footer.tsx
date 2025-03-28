@@ -8,16 +8,16 @@ const Footer: React.FC = () => {
       <div className="container-wide">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
           <div className="flex flex-col items-center justify-center md:items-start">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center justify-center mb-4">
               <div className="w-10 h-10 rounded-full bg-iluminai-yellow flex items-center justify-center text-iluminai-blue-dark font-bold text-lg mr-3">
                 IL
               </div>
               <span className="text-xl font-bold">Iluminai</span>
             </div>
-            <p className="text-gray-300 text-center md:text-left">
+            <p className="text-iluminai-blue-dark text-center justify-center md:text-left">
               "Ilumine sua fé, ilumine o mundo!"
             </p>
-            <div className="flex space-x-4 mt-6">
+            <div className="flex justify-center space-x-4 mt-6">
               <a
                 href="https://www.instagram.com/iluminaiomundo/"
                 target="_blank"
@@ -34,13 +34,17 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center justify-center">
                 <Phone className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                <span>(48) 99999-9999</span>
+                <a href="https://wa.me/5599988505086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)">
+                  (48) 9.9988-5086                
+                </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <Mail className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                <span>contato@iluminai.com</span>
+                <a href="mailto:contato@iluminai.com" className="text-gray-600 hover:text-efeta-500 transition-colors">
+                  contato@iluminai.com
+                </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <MapPin className="w-5 h-5 mr-2 text-iluminai-yellow" />
                 <a href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA">
                   Santuário da Beata Albertina | São Luis                
