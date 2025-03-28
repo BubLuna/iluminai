@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <div className="w-10 h-10 rounded-full bg-iluminai-yellow flex items-center justify-center text-iluminai-blue-dark font-bold text-lg mr-3">
                 IL
               </div>
-              <span className="text-xl font-bold">Iluminai</span>
+              <span className="text-xl justify-center font-bold">Iluminai</span>
             </div>
             <p className="text-iluminai-blue-dark text-center justify-center md:text-left">
               "Ilumine sua fé, ilumine o mundo!"
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="text-xl font-semibold mb-4">Contato</h3>
+            <h3 className="text-xl font-semibold justify-center mb-4">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-center justify-center">
                 <Phone className="w-5 h-5 mr-2 text-iluminai-yellow" />
@@ -54,8 +54,8 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center md:items-start">
-            <h3 className="text-xl font-semibold mb-4">Links Rápidos</h3>
-            <nav className="flex flex-col space-y-2">
+            <h3 className="text-xl font-semibold justify-center mb-4">Links Rápidos</h3>
+            <nav className="flex flex-col justify-center space-y-2">
               <a href="#inicio" className="hover:text-iluminai-yellow transition-colors">
                 Início
               </a>

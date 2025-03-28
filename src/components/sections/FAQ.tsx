@@ -7,17 +7,17 @@ const faqs = [
   {
     question: "O que devo levar para o retiro?",
     answer:
-      "Você deve levar roupas confortáveis, itens de higiene pessoal, bíblia, caderno para anotações, e qualquer medicamento que precise usar regularmente. Uma lista detalhada será fornecida após a inscrição.",
+      "Você deve ir com roupas confortáveis, levar itens de higiene pessoal e qualquer medicamento que precise usar regularmente, que deve ser informado na inscrição.",
   },
   {
     question: "Como faço para chegar ao local?",
     answer:
-      "O endereço completo do local do retiro é [inserir endereço]. Nós também forneceremos instruções detalhadas e opções de transporte após a confirmação da sua inscrição.",
+      "O local do retiro é em Imaruí, no Santuário da Beata Albertina. Nós também forneceremos instruções detalhadas e opções de transporte após a confirmação da sua inscrição.",
   },
   {
     question: "Há alimentação inclusa?",
     answer:
-      "Sim, todas as refeições durante o período do retiro estão inclusas na inscrição. Informamos que temos opções para restrições alimentares, basta nos comunicar com antecedência.",
+      "Sim, todas as refeições durante o período do retiro estão inclusas na inscrição. Informamos que temos opções para restrições alimentares, basta preencher na ficha de inscrição.",
   },
   {
     question: "O retiro é aberto para amigos (não católicos)?",
@@ -32,12 +32,12 @@ const faqs = [
   {
     question: "Como faço para me inscrever?",
     answer:
-      "As inscrições são feitas através de fichas físicas, que exigem assinatura dos pais ou responsáveis. Entre em contato pelo telefone (48) 99999-9999 para solicitar sua ficha.",
+      "As inscrições são feitas através de fichas físicas, que exigem assinatura dos pais ou responsáveis. Entre em contato pelo telefone (48) 9.9988-5086 para solicitar sua ficha.",
   },
   {
     question: "Tem custo de participação?",
     answer:
-      "Sim, o retiro tem um valor de inscrição que ajuda a cobrir os custos de alimentação, materiais e estrutura. Porém, temos opções de ajuda financeira para quem necessitar. Entre em contato para mais informações.",
+      "Sim, o retiro tem um valor de inscrição que ajuda a cobrir os custos de alimentação, materiais e estrutura.",
   },
 ];
 
@@ -104,10 +104,10 @@ const FAQ: React.FC = () => {
               </p>
               <div className="inline-flex items-center justify-center">
                 <a
-                  href="tel:+5548999999999"
+                  href="https://wa.me/55999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
                   className="button-iluminai"
                 >
-                  (48) 99999-9999
+                  (48) 9.9988-5086
                 </a>
               </div>
             </div>
