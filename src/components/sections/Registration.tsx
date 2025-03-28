@@ -40,7 +40,7 @@ const Registration: React.FC = () => {
                     2
                   </span>
                   <p>
-                    Entre em contato pelo telefone (48) 9.9988-5086-9999 para solicitar a sua ficha de inscrição.
+                    Entre em contato pelo telefone (48) 9.9988-5086 para solicitar a sua ficha de inscrição.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -53,24 +53,28 @@ const Registration: React.FC = () => {
                 </li>
               </ul>
 
-              <div className="mt-8 flex justify-center md:justify-start">
-                <Button
-                  icon={<Phone size={16} />}
-                  onClick={() => {
-                    window.location.href = "https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)";
-                  }}
-                >
-                  Solicite sua ficha agora!
-                </Button>
-
-                <a
-                  href="https://www.instagram.com/iluminaiomundo/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-iluminai-yellow hover:text-iluminai-blue-dark transition-colors duration-300"
-                >
-                  <Instagram size={18} />
-                </a>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="mt-8 flex justify-center md:justify-start">
+                  <Button
+                    icon={<Phone size={16} />}
+                    onClick={() => {
+                      window.location.href = "https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)";
+                    }}
+                  >
+                    Solicite sua ficha agora!
+                  </Button>
+                </div>
+                
+                <div className="mt-8 flex justify-center md:justify-start">
+                  <a
+                    href="https://www.instagram.com/iluminaiomundo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-iluminai-yellow hover:text-iluminai-blue-dark transition-colors duration-300"
+                  >
+                    <Instagram size={18} />
+                  </a>
+                </div>
               </div>
             </div>
           </FadeIn>

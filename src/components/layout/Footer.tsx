@@ -6,8 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-iluminai-yellow-light text-iluminai-blue-dark pt-16 pb-8">
       <div className="container-wide">
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-10 mb-12">
-            <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center text-center gap-10 mb-12">
               <h3 className="text-xl font-semibold justify-center mb-4">Contato</h3>
               <ul className="space-y-3">
                 <li className="flex items-center justify-center">
@@ -29,8 +28,7 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
               </ul>
-            </div>
-
+          </div>
             <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-center items-center">
               <p className="flex items-center justify-center">
                 © {new Date().getFullYear()} Retiro ILUMINAI. Site feito com 
@@ -40,8 +38,7 @@ const Footer: React.FC = () => {
                 </a>
               </p>
             </div>
-        </div>
-    </div>
+      </div>
   </footer>);
 };
 
