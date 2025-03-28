@@ -7,23 +7,25 @@ const Footer: React.FC = () => {
     <footer className="bg-iluminai-yellow-light text-iluminai-blue-dark pt-16 pb-8">
       <div className="container-wide">
         <div className="flex flex-col items-center text-center gap-10 mb-12">
-              <h3 className="text-xl font-semibold justify-center mb-4">Contato</h3>
               <ul className="space-y-3">
                 <li className="flex items-center justify-center">
                   <Phone className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                  <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)">
+                  <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
                     (48) 9.9988-5086                
                   </a>
                 </li>
                 <li className="flex items-center justify-center">
                   <Mail className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                  <a href="mailto:contato@iluminai.com" className="text-gray-600 hover:text-efeta-500 transition-colors">
+                  <a href="mailto:contato@iluminai.com" 
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
                     contato@iluminai.com
                   </a>
                 </li>
                 <li className="flex items-center justify-center">
                   <MapPin className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                  <a href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA">
+                  <a href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
                     Santuário da Beata Albertina | São Luis, Imaruí                
                   </a>
                 </li>

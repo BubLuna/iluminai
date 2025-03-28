@@ -61,7 +61,7 @@ const FAQ: React.FC = () => {
             </h2>
             <div className="h-1 w-20 bg-iluminai-yellow mx-auto"></div>
             <p className="max-w-2xl mx-auto mt-6 text-iluminai-blue-dark/70">
-              Encontre respostas para as perguntas mais comuns sobre o Retiro Iluminai. Se sua dúvida não estiver aqui, entre em contato conosco.
+              Encontre respostas para as perguntas mais comuns sobre o Retiro Iluminai.
             </p>
           </div>
         </FadeIn>
@@ -115,7 +115,7 @@ const FAQ: React.FC = () => {
                   href="https://www.instagram.com/iluminaiomundo/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-iluminai-yellow hover:text-iluminai-blue-dark transition-colors duration-300"
+                  className="w-10 h-10 rounded-full bg-iluminai-yellow flex items-center justify-center text-iluminai-blue-dark"
                 >
                   <Instagram size={18} />
                 </a>

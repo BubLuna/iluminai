@@ -54,17 +54,17 @@ const Registration: React.FC = () => {
               </ul>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div className="mt-8 flex justify-center md:justify-start">
-                  <Button
-                    icon={<Phone size={16} />}
-                    onClick={() => {
-                      window.location.href = "https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)";
-                    }}
+                <div className="mt-8 flex justify-center md:justify-center">
+                <a
+                    href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-iluminai-yellow hover:text-iluminai-blue-dark transition-colors duration-300"
                   >
-                    Solicite sua ficha agora!
-                  </Button>
+                    <Phone size={18} />
+                </a>
                 </div>
-                
+
                 <div className="mt-8 flex justify-center md:justify-start">
                   <a
                     href="https://www.instagram.com/iluminaiomundo/"
