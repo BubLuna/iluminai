@@ -4,7 +4,7 @@ import { Heart, Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-iluminai-yellow text-iluminai-blue-dark pt-16 pb-8">
+    <footer className="bg-iluminai-yellow-light text-iluminai-blue-dark pt-16 pb-8">
       <div className="container-wide">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
           <div className="flex flex-col items-center justify-center md:items-start">
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-center items-center">
           <p className="flex items-center justify-center">
             © {new Date().getFullYear()} Retiro ILUMINAI. Site feito com 
             <Heart size={14} className="mx-1 text-efeta-500" /> 
