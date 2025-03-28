@@ -2,7 +2,7 @@
 import React from "react";
 import FadeIn from "../animations/FadeIn";
 import { Button } from "../ui/Button";
-import { Heart, DollarSign, Gift, Smartphone } from "lucide-react";
+import { Heart, DollarSign, Gift, Smartphone, Smile } from "lucide-react";
 
 const Contribute: React.FC = () => {
   return (
@@ -72,7 +72,8 @@ const Contribute: React.FC = () => {
             </FadeIn>
 
             <FadeIn direction="right" delay={0.2}>
-              <div className="bg-white rounded-2xl p-8 border border-iluminai-yellow/30 shadow-subtle">
+              {/*<div className="bg-white rounded-2xl p-8 border border-iluminai-yellow/30 shadow-subtle">*/}
+              <div className="space-y-6">
                 <h3 className="text-2xl font-semibold mb-6">
                   Formas de Contribuição
                 </h3>
@@ -118,15 +119,16 @@ const Contribute: React.FC = () => {
                 <div className="mt-8">
                   <Button
                     fullWidth
-                    icon={<Heart size={16} />}
+                    icon={<Smile size={16} />}
                     onClick={() => {
-                      window.location.href = "tel:+5548999999999";
+                      window.location.href = "https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Vi%20a%20proposta%20e%20senti%20vontade%20de%20contribuir%20com%20essa%20obra%20:)";
                     }}
                   >
-                    Quero contribuir
+                    Quero contribuir!
                   </Button>
                 </div>
               </div>
+              {/*</div>*/}
             </FadeIn>
           </div>
         </div>

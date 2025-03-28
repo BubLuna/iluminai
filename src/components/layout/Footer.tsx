@@ -11,21 +11,21 @@ const Footer: React.FC = () => {
                 <li className="flex items-center justify-center">
                   <Phone className="w-5 h-5 mr-2 text-iluminai-yellow" />
                   <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
-                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow transition-colors">
                     (48) 9.9988-5086                
                   </a>
                 </li>
                 <li className="flex items-center justify-center">
                   <Mail className="w-5 h-5 mr-2 text-iluminai-yellow" />
                   <a href="mailto:contato@iluminai.com" 
-                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow transition-colors">
                     contato@iluminai.com
                   </a>
                 </li>
                 <li className="flex items-center justify-center">
                   <MapPin className="w-5 h-5 mr-2 text-iluminai-yellow" />
                   <a href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
-                  className="text-iluminai-blue-dark hover:text-iluminai-yellow-light transition-colors">
+                  className="text-iluminai-blue-dark hover:text-iluminai-yellow transition-colors">
                     Santuário da Beata Albertina | São Luis, Imaruí                
                   </a>
                 </li>
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
               <p className="flex items-center justify-center">
                 © {new Date().getFullYear()} Retiro ILUMINAI. Site feito com 
                 <Heart size={14} className="mx-1 text-efeta-500" /> 
-                <a href="https://www.instagram.com/rebecalunardibublitz/" className="hover:text-efeta-500 transition-colors">
+                <a href="https://www.instagram.com/rebecalunardibublitz/" className="text-iluminai-yellow transition-colors">
                   por Rebeca Lunardi Bublitz.
                 </a>
               </p>
