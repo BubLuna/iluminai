@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center justify-center">
                 <Phone className="w-5 h-5 mr-2 text-iluminai-yellow" />
-                <a href="https://wa.me/55999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)">
+                <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)">
                   (48) 9.9988-5086                
                 </a>
               </li>
