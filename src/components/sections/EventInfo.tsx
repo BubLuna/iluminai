@@ -34,7 +34,7 @@ const EventInfo: React.FC = () => {
                 </div>
               </div>
               <p className="text-iluminai-blue-dark">
-                O retiro acontecerá nos dias [inserir data completa], com início às [horário] e encerramento às [horário].
+                O retiro acontecerá no dia 03 de agosto, com início às 8 horas e encerramento às 18 horas.
               </p>
             </div>
           </FadeIn>
@@ -53,27 +53,13 @@ const EventInfo: React.FC = () => {
                 </div>
               </div>
               <p className="text-iluminai-blue-dark mb-4">
-                [Inserir endereço completo do retiro]
+                Santuário da Beata Albertina | São Luis, Imaruí 
               </p>
               <a
-                href="https://maps.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA"
                 className="inline-flex items-center text-iluminai-yellow font-medium hover:underline"
               >
                 Ver no Google Maps
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
               </a>
             </div>
           </FadeIn>
@@ -171,7 +157,7 @@ const EventInfo: React.FC = () => {
               </div>
             </div>
             <p className="text-center text-iluminai-blue-dark/70 mt-8">
-              A programação detalhada será entregue no início do retiro.
+              A programação detalhada não será divulgada, em pról de manter o envolvimento dos Iluminados com o momento.
             </p>
           </div>
         </FadeIn>

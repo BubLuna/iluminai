@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import FadeIn from "../animations/FadeIn";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Instagram } from "lucide-react";
 
 const faqs = [
   {
@@ -104,10 +104,20 @@ const FAQ: React.FC = () => {
               </p>
               <div className="inline-flex items-center justify-center">
                 <a
-                  href="https://wa.me/55999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
+                  href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ILUMINAI!%20Gostaria%20de%20mais%20informações%20:)"
                   className="button-iluminai"
                 >
                   (48) 9.9988-5086
+                </a>
+              </div>
+              <div className="flex justify-center space-x-4 mt-6">
+                <a
+                  href="https://www.instagram.com/iluminaiomundo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-iluminai-yellow hover:text-iluminai-blue-dark transition-colors duration-300"
+                >
+                  <Instagram size={18} />
                 </a>
               </div>
             </div>
